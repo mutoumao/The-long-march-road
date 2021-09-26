@@ -1,0 +1,33 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+
+  <servlet>
+    <servlet-name>addServlet</servlet-name>
+    <servlet-class>person.ActionServlet.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addServlet</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>updateServlet</servlet-name>
+    <servlet-class>person.ActionServlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>deleteServlrt</servlet-name>
+    <servlet-class>person.ActionServlet.DeleteServlrt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteServlrt</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+</web-app>
